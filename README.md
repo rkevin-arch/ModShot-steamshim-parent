@@ -6,8 +6,10 @@ Steamshim parent executable, compiled for [ModShot](https://github.com/Astrabit-
 1. Add a `icon.ico` for your mod's icon (only required for windows).
 2. Acquire a copy of the Steamworks SDK, then extract it into this repo.
 3. Compile this using cmake (should be fairly easy on linux. If you are on windows, good luck setting up your toolchain)
-4. Place the executable, `steam_api64.so/dll`, and a `steam_appid.txt` containing your steam mod appid into the game's base folder.
+4. Place the executable, `sdk/redistributable_bin/linux64/steam_api64.so` or `sdk/redistributable_bin/win64/steam_api64.dll`, and a `steam_appid.txt` containing your steam mod appid into the game's base folder.
 5. Enjoy.
+
+Alternatively, contact rkevin for some prebuilt binaries or ask him to build this for you.
 
 ## License
 This repo uses a zlib license, since that's what the original steamshim uses.
