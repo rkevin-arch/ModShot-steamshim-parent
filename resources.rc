@@ -1,2 +1,2 @@
 #include <winuser.h>
-MAINICON ICON "../assets/icon.ico"
+MAINICON ICON "icon.ico"
