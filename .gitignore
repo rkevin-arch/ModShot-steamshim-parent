@@ -11,3 +11,5 @@ CTestTestfile.cmake
 _deps
 
 # you need to get your own steamworks sdk, sorry :(
+sdk/
+steamshim
