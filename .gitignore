@@ -12,4 +12,7 @@ _deps
 
 # you need to get your own steamworks sdk, sorry :(
 sdk/
+icon.ico
 steamshim
+steamshim.exe
+steam_appid.txt
